@@ -9,6 +9,9 @@
 import UIKit
 
 class PostDetailTableViewController: UITableViewController {
+    
+    // MARK: - Properties
+    var post: Post?
 
     override func viewDidLoad() {
         super.viewDidLoad()
